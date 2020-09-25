@@ -43,9 +43,9 @@ yargs.command({
             demandOption : true,
             type : 'string' 
         }
-    }
+    },
     handler : function(argv){
-        notes.removeNote(argv.tiile)
+        notes.removeNote(argv.title)
     }
 })
 
